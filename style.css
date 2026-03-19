@@ -1,0 +1,98 @@
+@charset "UTF-8";
+* {
+    font-family: sans-serif, ;
+}
+
+.perfil-foto {
+    height: 650px;
+    width: 650px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #00ACEF;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    padding-top: 100px;
+    background-attachment: fixed;
+    background: fixed;
+    background-color: #081B28;
+}
+
+.matheus {
+    font-family: 'Space Grotesk';
+    color: #00ACEF;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+.sobre-mim {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.objetivo {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact {
+    color: #25D366;
+}
+
+nav {
+    position: fixed;
+    background-color: #010409;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 26px 0;
+    z-index: 1000;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00ACEF;    
+}
+
+.logo-nav {
+    position: absolute;
+    left: 50px;
+    display: inline-block;
+    margin-top: 1px;
+    margin-right: 10px;
+    font-family: 'Space Grotesk';
+    font-size: 2em;
+    color: #00ACEF;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+li {
+    font-family: 'Inter';
+    font-size: 30px;
+}
